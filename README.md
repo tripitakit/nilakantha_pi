@@ -1,4 +1,4 @@
-# Nilakantha
+# Nilakantha PI
 
 Calculate PI recursively using Nilakantha series:
 
@@ -6,12 +6,6 @@ Calculate PI recursively using Nilakantha series:
 
 ## Examples
 
-iex> Nilakantha.calculate_pi(0) # => 3.0
+iex> Nilakantha.calculate_pi(1_000)
 
-iex> Nilakantha.calculate_pi(1) # => 3.1666666666666665
-
-iex> Nilakantha.calculate_pi(2) # => 3.1333333333333333
-
-iex> Nilakantha.calculate_pi(3) # => 3.145238095238095
-
-iex> Nilakantha.calculate_pi(1_000) # => 3.141592653340544
+3.141592653340544
