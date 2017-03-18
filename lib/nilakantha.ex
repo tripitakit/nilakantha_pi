@@ -20,10 +20,10 @@ defmodule Nilakantha do
         iex> Nilakantha.calculate_pi(1)
         3.1666666666666665
 
-        iex(3)> Nilakantha.calculate_pi(2)
+        iex> Nilakantha.calculate_pi(2)
         3.1333333333333333
 
-        iex(3)> Nilakantha.calculate_pi(3)
+        iex> Nilakantha.calculate_pi(3)
         3.145238095238095
 
         iex> Nilakantha.calculate_pi(1_000)
