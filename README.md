@@ -1,19 +1,25 @@
 # Nilakantha
 
-**TODO: Add description**
+Calculate PI recursively using Nilakantha series:
 
-## Installation
+π = 3 +4(2×3×4) −4(4×5×6) +4(6×7×8) −4(8×9×10) ...
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `nilakantha` to your list of dependencies in `mix.exs`:
+## Examples
 
-```elixir
-def deps do
-  [{:nilakantha, "~> 0.1.0"}]
-end
-```
+  iex> Nilakantha.calculate_pi(0)
+  3.0
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/nilakantha](https://hexdocs.pm/nilakantha).
+  iex> Nilakantha.calculate_pi(1)
+  3.1666666666666665
 
+  iex(3)> Nilakantha.calculate_pi(2)
+  3.1333333333333333
+
+  iex(3)> Nilakantha.calculate_pi(3)
+  3.145238095238095
+
+  iex> Nilakantha.calculate_pi(1_000)
+  3.141592653340544
+
+  iex> Nilakantha.calculate_pi(1_000_000)
+  3.141592653589787
